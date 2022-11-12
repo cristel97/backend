@@ -19,7 +19,7 @@ app.use('*', (req, res) => {
 });
 
 try{
-	mongoose.connect("mongodb+srv://cristeltch:Pantone389C@cluster0.fmgyrwm.mongodb.net/?retryWrites=true&w=majority")
+	mongoose.connect("mongodb+srv://cristeltch:Pantone389C@cluster0.fmgyrwm.mongodb.net/ecommerce?retryWrites=true&w=majority")
 	console.log("Database successfully connected.")
 } catch (error) {
 	console.log(error)
